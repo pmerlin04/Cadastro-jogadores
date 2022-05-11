@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: rgb(41, 65, 171);
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.box{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    width: 25%;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(20, 20, 20, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.alertaGreen{
+    position: absolute;
+    border: solid 5px dodgerblue;
+    background-color: rgb(41, 65, 171);
+    border-radius: 8px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 44%;
+    margin-left: 41%;
+    width: 18%;
+}
+
+input{
+    background:none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+input#incluir{
+    cursor:pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 80px;
+    background-color: dodgerblue;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    border-bottom: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+input#arquivo{
+    cursor:pointer;
+}
+
+label.labelInput{
+    color: white;
+    margin-top: -30px;
+    pointer-events: none;
+    font-size: 15px;
+}
+
+
+fieldset{
+    border: 3px solid dodgerblue;
+    height: 380px;
+    margin-top: -300px;
+}
+
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+
+img{
+    width: 150px;
+    height: 200px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
